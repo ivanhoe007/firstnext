@@ -4,8 +4,8 @@ import { signOut } from 'next-auth/react';
 import { Button } from 'react-bootstrap';
 
 export default function LogoutBtn() {
-    return ( <
-        Link href = { '/' } >
+    return (
+
         <
         Button href = { `/` }
         variant = "primary"
@@ -23,8 +23,8 @@ export default function LogoutBtn() {
             }
         } >
         로그아웃 <
-        /Button> <
-        /Link>
+        /Button>
+
 
     );
 }
