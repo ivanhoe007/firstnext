@@ -1,0 +1,236 @@
+.header {
+    background-color: burlywood;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+.header_center {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px gray;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+#gray_line {
+    width: 100%;
+    height: 6px;
+    background-color: burlywood;
+}
+
+.main {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    background-color: burlywood;
+    width: 230px;
+}
+
+.sidebar_category {
+    text-align: center;
+    margin: 20px 0;
+}
+
+Button {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.wrap {
+    height: 93.5vh;
+}
+
+.main_content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/Board_jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.detail {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.page_into {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.main_content,
+.detail,
+.page_into {
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.detail::after,
+.main_content::after,
+.page_into::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 100%;
+    background-color: #d3d3d3;
+}
+
+.list-bg {
+    background: rgb(249, 250, 255);
+    padding: 10px;
+}
+
+.list-item {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 5px;
+    box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+}
+
+.list-item h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.list-item p {
+    color: rgb(0, 0, 0);
+    margin: 5px 0px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.new_btn {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+Link {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+h4,
+p {
+    text-decoration-line: none;
+    color: #000;
+}
+
+.id_input {
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid blue;
+    max-width: 560px;
+}
+
+.id_input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.id_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.id_buttons button {
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.joinInput {
+    margin: 20px auto 20px auto;
+}
+
+.join {
+    text-align: center;
+}
+
+.article {
+    width: 90%;
+}
+
+.article_content {
+    width: 90%;
+    height: 300px;
+}
+
+.info1 {
+    background-color: burlywood;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 80px;
+    padding: 25px 25px 25px 25px;
+    width: 35%;
+    height: 80%;
+    flex-direction: row;
+    border-radius: 10%;
+}
+
+.info1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
